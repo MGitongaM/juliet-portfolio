@@ -2,22 +2,22 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="c">
-      <div className="min-h-screen container mx-auto px-4 py-20">
+    <section id="about-me" className="">
+      <div className="min-h-screen container mx-auto px-4 py-16 lg:py-30">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">About Me</h2>
         </div>
-        <div className="flex justify-evenly items-center gap-10 ">
-          <div className="w-full md:w-6/12">
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-10 ">
+          <div className="w-full md:w-6/12 ">
             <Image
-              src="/imgs/Juliet Ndungu.jpeg"
+              src="/imgs/Juliet Ndungu 1.png"
               height={800}
               width={8000}
               alt="Miss Juliet Ndungu"
-              className="object-cover rounded-full h-[40rem] "
+              className="object-contain rounded-full h-[40rem] "
             />
           </div>
-          <div className="w-full md:w-6/12 text-2xl  space-y-6">
+          <div className="w-full md:w-6/12 text- lg:text-2xl  space-y-6">
             <p className="c">
               Hi, I&apos;m Juliet Ndungu, your dedicated personal assistant with
               a passion for making life easier one task at a time.

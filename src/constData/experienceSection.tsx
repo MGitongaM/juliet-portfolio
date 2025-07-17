@@ -46,12 +46,12 @@ export const clientTestimonial=[
         id:1,
         quote:"She helped me get my life back. Everything just works now. Couldn't do it without her",
         client:"Mark, Tech Founder",
-        image:"/imgs/Juliet Ndungu.jpeg",
+        image:"/imgs/mark.jpg",
     },
     {
         id:2,
         quote:"Super organized, always ahead of me, and a joy to work with.",
         client:" Emily, Real Estate Agent",
-        image:"/imgs/Juliet Ndungu.jpeg",
+        image:"/imgs/emliy.jpg",
     },
 ]

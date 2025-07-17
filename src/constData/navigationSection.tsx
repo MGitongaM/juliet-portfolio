@@ -1,0 +1,32 @@
+export const navigationEntries=[
+    {
+        id:1,
+        name:"Home",
+        link:"/",
+    },
+    {
+        id:2,
+        name:"About",
+        link:"/#about-me",
+    },
+    {
+        id:3,
+        name:"Services",
+        link:"/#services",
+    },
+    {
+        id:4,
+        name:"Tools",
+        link:"/#tools",
+    },
+    {
+        id:5,
+        name:"Experience",
+        link:"/#experience",
+    },
+    {
+        id:6,
+        name:"Testimonials",
+        link:"/#testimonials",
+    },
+]
