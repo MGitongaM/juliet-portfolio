@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function AboutSection() {
   return (
     <section id="about-me" className="">
-      <div className="min-h-screen container mx-auto px-4 py-16 lg:py-30">
+      <div className="min-h-screen container mx-auto px-4 py-20 lg:py-30">
         <div className="text-center">
           <h2 className="text-3xl font-semibold">About Me</h2>
         </div>
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-10 ">
-          <div className="w-full md:w-6/12 ">
+          <div className="w-full md:w-6/12 -mt-20 md:mt0">
             <Image
               src="/imgs/Juliet Ndungu 1.png"
               height={800}
@@ -17,7 +17,7 @@ export default function AboutSection() {
               className="object-contain rounded-full h-[40rem] "
             />
           </div>
-          <div className="w-full md:w-6/12 text- lg:text-2xl  space-y-6">
+          <div className="w-full md:w-6/12 text- lg:text-2xl  space-y-6 -mt-30 md:mt0">
             <p className="c">
               Hi, I&apos;m Juliet Ndungu, your dedicated personal assistant with
               a passion for making life easier one task at a time.

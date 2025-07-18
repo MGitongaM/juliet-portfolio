@@ -13,7 +13,7 @@ export default function ServiceSection() {
           <div className="text-center">
             <h2 className="text-3xl font-semibold">Service Offer</h2>
           </div>
-          <div className="flex flex-wrap lg:flex-nowrap justify-between items-start gap-10 py-20">
+          <div className="flex flex-wrap lg:flex-nowrap justify-between items-start gap-10 py-10 md:py-20">
             <div className="w-full lg:w-6/12 h-full md:min-h-[36rem] bg-slate-50  rounded-xl px-8 py-12">
             <div className="bg-slate-200 h-full md:min-h-[30rem] rounded-xl hover:shadow-2xl hover:scale-105 transition duration-700 px-4 pt-8">
               <p className="text-xl">

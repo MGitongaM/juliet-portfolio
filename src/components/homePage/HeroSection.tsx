@@ -13,7 +13,7 @@ export default function HeroSection() {
             Assistant
           </h1>
         </div>
-        <div className="flex flex-wrap md:flex-nowrap justify-between items-end gap-8 lg:-mt-20">
+        <div className="flex flex-wrap md:flex-nowrap justify-between items-end gap-8 lg:-mt-8">
           <div className="w-12/12 mx-auto space-y-6 ">
           <div className=" space-y-6">
               <p className="text-2xl md:text-4xl font-s">Your Right Hand for a Smoother Life</p>
@@ -29,7 +29,8 @@ export default function HeroSection() {
               height={800}
               width={8000}
               alt="Miss Juliet Ndungu"
-              className="object-contain md:object-cov lg:object-contain  h-auto md:h-[30rem] lg:h-[40rem] w-full -mt-10"
+              // className="object-contain md:object-cov lg:object-contain  h-auto md:h-[30rem] lg:h-[40rem] w-full -mt-10"
+              className="object-contain md:object-cover lg:object-contain  h-auto md:h-[30rem] lg:h-[35rem] w-full"
             />
 
            

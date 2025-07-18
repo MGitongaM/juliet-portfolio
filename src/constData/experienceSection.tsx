@@ -2,6 +2,7 @@ export const experienceEntries=[
     {
         id:1,
         compnayName:"Beyond the Savannah",
+        img:"/imgs/bts logo.jpeg",
         details:[
             "Coordinate all internal and external communication by managing company emails, scheduling meetings, and ensuring every inquiry receives a timely response. Escalate issues when necessary—contributing to a 20% reduction in client complaints.",
             "Support day-to-day operations by managing the founder's calendar and ensuring timely, effective communication—allowing leadership to stay focused and responsive.",
@@ -17,6 +18,7 @@ export const experienceEntries=[
     {
         id:2,
         compnayName:"Mwananchi Credit Limited",
+        img:"/imgs/mwananchi credit logo.png",
         details:[
             "Led end-to-end recruitment processes - including background checks, selection, and onboarding—contributing to a 20% increase in employee retention.",
             "Oversaw daily HR operations including attendance tracking, leave management, and employee record maintenance through HRIS and manual systems, with monthly audits for accuracy.",
@@ -30,6 +32,7 @@ export const experienceEntries=[
     {
         id:3,
         compnayName:"Mburu Machua & Company Advocates",
+        img:"/imgs/mburu machua logo.jpeg",
         details:[
             "Assisted legal counsel with case preparation, including drafting answers, motions, pleadings, and compiling discovery documentation.",
             "Conducted legal research on statutes, case law, regulations, and legal articles to support case strategies and filings.",

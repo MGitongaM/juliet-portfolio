@@ -15,7 +15,7 @@ export default function ExperienceSection() {
           <div className="text-center">
             <h2 className="text-3xl font-semibold pb-8">My work Experience</h2>
           </div>
-          <div className="w-full md:w-10/12 mx-auto h-full md:min-h-[32rem] bg-slate-50 rounded-xl px-4 pt-8">
+          <div className="w-full md:w-10/12 mx-auto h-full md:min-h-[32rem] bg-slate-50 rounded-xl md:px-4 pt-8">
             <p className="text-2xl text-center">
               I&apos;ve supported clients from a range of industries, including:
             </p>
@@ -25,7 +25,10 @@ export default function ExperienceSection() {
                   key={entry.id}
                   className="bg-slate-100 rounded-xl px-8 py-12 hover:shadow-2xl hover:scale-105 transition duration-700"
                 >
-                  <p className="font-bold pb-8">{entry.compnayName}</p>
+                  <div className="flex items-center gap-4 mb-5">
+                    <Image src={entry.img} width={800} height={800} alt={`${entry.compnayName} image`} className="object-cover h-16 w-16 rounded-lg"/>
+                    <p className="font-bold">{entry.compnayName}</p>
+                  </div>
 
                   <ul className="list-none space-y-4">
                     {entry.details.map((detail, indx) => (
