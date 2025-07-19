@@ -19,7 +19,7 @@ export default function ExperienceSection() {
             <p className="text-2xl text-center">
               I&apos;ve supported clients from a range of industries, including:
             </p>
-            <div className=" text-xl py-10 px-8 space-y-12 ">
+            <div className=" text-xl py-10 px-2 md:px-8 space-y-12 ">
               {experienceEntries.map((entry) => (
                 <div
                   key={entry.id}
@@ -34,10 +34,13 @@ export default function ExperienceSection() {
                     {entry.details.map((detail, indx) => (
                       <li
                         key={indx}
-                        className=" text-base flex items-center gap-2"
+                        // className=" text-base flex items-center gap-2"
+                        className=" text-base grid grid-cols-12 items-center gap-1"
                       >
-                        <SquareAsterisk size={20} className="text-lime-400" />
+                        <SquareAsterisk size={20} className="col-span-1 text-lime-400" />
+                        <p className="col-span-11">
                         {detail}
+                        </p>
                       </li>
                     ))}
                   </ul>

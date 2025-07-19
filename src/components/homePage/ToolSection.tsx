@@ -20,7 +20,7 @@ export default function ToolSection() {
               {toolsEntries.map((entry) => (
                 <div
                   key={entry.id}
-                  className=" border grid place-content-center text-center w-44 md:w-64 min-h-48 rounded-lg px-1 py-4"
+                  className=" border grid place-content-center text-center w-44 md:w-40 lg:w-64 min-h-48 rounded-lg px-1 py-4"
                 >
                   <Image
                     src={entry.img[0]}
